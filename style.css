@@ -1,29 +1,58 @@
 body {
-    background-color: lightgray;
+    background-image: url("dust_scratches.png");
+    background-repeat: repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar {
+    max-height: 55px;
+    width: 100%;
+    background-color: cadetblue;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navtab {
+    border:  1px solid gray;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#logo {
+    align-items: center;
+    max-width: 100px;
+    float: left;
+    margin-right: 20px;
+
 }
 
 h1 {
     font-size: 17;
     color: gray;
     text-shadow: 3px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    clear: both;
 }
 
 h2 {
     font-size: 13;
     color: darkgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h3 {
+p {
     font-size: 12;
     color: darkgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     word-wrap: break-word;
 }
 
-#img_profile {
-    align-items: left;
-    border: 5px;
-
+.main-profile-img {
+    float: left;
+    max-width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
+
+ul {
+    font-size: 12;
+    color: darkgray;
+}
+
